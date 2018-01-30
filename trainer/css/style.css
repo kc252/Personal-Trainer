@@ -52,6 +52,7 @@ h1, h2, .heading-with-icon, h3, h4 {
 
 h1 {
   margin-top: 0;
+  margin-left: -50px;
   font-size: 3.998em;
 }
 
@@ -90,7 +91,7 @@ p, ul, ol, figure {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 a:hover, a:focus, a:active {
@@ -103,7 +104,7 @@ a.hover-reverse {
 }
 
 a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
-  color: #96c7f5;
+  color: #d53d3c;
   text-decoration: none;
 }
 
@@ -260,7 +261,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a:hover {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-main-nav li.probootstrap-cta {
@@ -276,7 +277,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-main-nav li.probootstrap-cta a:hover {
   background: #ffffff;
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.probootstrap-cta {
@@ -299,7 +300,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.active a {
   border-bottom: none !important;
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li {
@@ -383,7 +384,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-intro .probootstrap-intro-text {
-  margin-top: 300px;
+  margin-top: 200px;
+  padding-bottom: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -423,9 +425,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   bottom: 0;
   content: "";
   background: #ddf0f3;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #96c7f5));
-  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#96c7f5));
-  background: linear-gradient(to right, #ddf0f3 0%, #96c7f5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #d53d3c));
+  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#d53d3c));
+  background: linear-gradient(to right, #ddf0f3 0%, #d53d3c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
   opacity: .8;
 }
@@ -442,9 +444,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-intro h1 {
-  font-size: 120px;
+  font-size: 80px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   font-weight: 900;
   line-height: 100px;
   margin-bottom: 0;
@@ -484,7 +486,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   left: 0;
   width: 50px;
   height: 2px;
-  background: #96c7f5;
+  background: #d53d3c;
 }
 
 .probootstrap-intro .probootstrap-subtitle h2 a, .probootstrap-intro .probootstrap-subtitle .heading-with-icon a {
@@ -625,39 +627,39 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .btn.btn-primary {
-  border: 2px solid #96c7f5;
-  background: #96c7f5;
+  border: 2px solid #d53d3c;
+  background: #d53d3c;
   color: #ffffff;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #67aef1;
+  background: #c12a2a;
   color: #ffffff;
-  border: 2px solid #67aef1;
+  border: 2px solid #c12a2a;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 2px solid #67aef1;
+  border: 2px solid #c12a2a;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 2px solid #96c7f5;
-  color: #96c7f5;
+  border: 2px solid #d53d3c;
+  color: #d53d3c;
 }
 
 .btn.btn-ghost:hover {
-  background: #96c7f5;
+  background: #d53d3c;
   color: #ffffff;
-  border: 2px solid #96c7f5;
+  border: 2px solid #d53d3c;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #96c7f5;
-  border: 2px solid #96c7f5;
+  color: #d53d3c;
+  border: 2px solid #d53d3c;
 }
 
 .btn.btn-ghost.btn-ghost-white {
@@ -668,13 +670,13 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .btn.btn-ghost.btn-ghost-white:hover {
   background: #ffffff;
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .btn.btn-ghost.btn-ghost-white:focus, .btn.btn-ghost.btn-ghost-white:active {
   outline: none;
   background: #ffffff;
-  color: #96c7f5;
+  color: #d53d3c;
   border: 2px solid #ffffff;
 }
 
@@ -721,11 +723,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section.probootstrap-section-colored, .probootstrap-section.probootstrap-section-dark {
-  background: #96c7f5;
+  background: #d53d3c;
   background: #ddf0f3;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #96c7f5));
-  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#96c7f5));
-  background: linear-gradient(to right, #ddf0f3 0%, #96c7f5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #d53d3c));
+  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#d53d3c));
+  background: linear-gradient(to right, #ddf0f3 0%, #d53d3c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
 }
 
@@ -738,11 +740,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section.probootstrap-section-colored .heading-with-icon, .probootstrap-section.probootstrap-section-dark .heading-with-icon {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-section.probootstrap-section-colored .heading-with-icon i, .probootstrap-section.probootstrap-section-dark .heading-with-icon i {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-section.probootstrap-section-colored p, .probootstrap-section.probootstrap-section-dark p {
@@ -807,7 +809,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   left: 0;
   width: 50px;
   height: 2px;
-  background: #96c7f5;
+  background: #d53d3c;
 }
 
 .probootstrap-owl-navigation {
@@ -942,7 +944,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-footer {
   padding: 3em 0 3em 0;
-  background: #96c7f5;
+  background: #d53d3c;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -963,7 +965,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   zoom: 1;
   text-align: center;
   background: #ffffff;
-  color: #96c7f5 !important;
+  color: #d53d3c !important;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -972,7 +974,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer .probootstrap-backtotop a:hover, .probootstrap-footer .probootstrap-backtotop a:focus, .probootstrap-footer .probootstrap-backtotop a:active {
-  color: #96c7f5 !important;
+  color: #d53d3c !important;
 }
 
 .probootstrap-footer .border-top {
@@ -1189,7 +1191,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-block-image .text p.dark {
@@ -1244,7 +1246,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-blog-list li a:hover h4, .probootstrap-news-list li a:hover h4, .probootstrap-product-list li a:hover h4 {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-quote {
@@ -1277,7 +1279,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .link-with-icon {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .link-with-icon i {
@@ -1291,7 +1293,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .link-with-icon:hover, .link-with-icon:focus {
-  color: #67aef1;
+  color: #c12a2a;
 }
 
 .link-with-icon:hover i, .link-with-icon:focus i {
@@ -1348,7 +1350,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   display: block;
   text-transform: none;
   letter-spacing: normal;
-  color: #96c7f5;
+  color: #d53d3c;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1359,7 +1361,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
   font-size: 50px;
-  color: #96c7f5;
+  color: #d53d3c;
   font-weight: 100;
   line-height: 1.2;
   display: block;
@@ -1397,7 +1399,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .heading-with-icon i {
-  color: #96c7f5;
+  color: #d53d3c;
   font-size: 30px;
   position: relative;
   margin-right: 20px;
@@ -1417,7 +1419,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-box .icon i {
   font-size: 50px;
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-box ul {
@@ -1461,7 +1463,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .progress-bar {
   border: none;
-  background-color: #96c7f5;
+  background-color: #d53d3c;
   border-radius: 10px;
   position: relative;
   -webkit-box-shadow: none;
@@ -1470,7 +1472,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .progress-bar > span {
-  background: #96c7f5;
+  background: #d53d3c;
   padding: 2px 4px;
   font-size: 10px;
   position: absolute;
@@ -1485,7 +1487,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 7px solid #96c7f5;
+  border-top: 7px solid #d53d3c;
   position: absolute;
   bottom: -7px;
   left: 50%;
@@ -1535,7 +1537,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .nav-tabs.probootstrap-tabs > li > a, .nav-pills.probootstrap-tabs > li > a {
   border-radius: 0px;
   padding: 20px 30px;
-  background: #96c7f5;
+  background: #d53d3c;
   color: #ffffff;
   font-size: 16px;
   border: none !important;
@@ -1599,7 +1601,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .service .icon i {
   font-size: 40px;
   color: rgba(0, 0, 0, 0.2);
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .service h3 {
@@ -1710,7 +1712,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #96c7f5;
+  border-color: #d53d3c;
   background: #ffffff;
 }
 
@@ -1755,7 +1757,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .with-icon.colored i {
-  color: #96c7f5;
+  color: #d53d3c;
 }
 
 .probootstrap-steps {
@@ -1785,7 +1787,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-steps li .number i {
-  color: #96c7f5;
+  color: #d53d3c;
   width: 70px !important;
   height: 70px !important;
   background: #000000;
@@ -2349,7 +2351,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-primary-color {
-  color: #96c7f5 !important;
+  color: #d53d3c !important;
 }
 
 .probootstrap-secondary-color {
