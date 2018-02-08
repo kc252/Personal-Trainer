@@ -53,7 +53,8 @@ h1, h2, .heading-with-icon, h3, h4 {
 h1 {
   margin-top: 0;
   margin-left: -50px;
-  font-size: 3.998em;
+  /*font-size: 3.998em;*/ 
+  font-size: 80vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,7 +86,7 @@ small, .font_small {
 }
 
 p, ul, ol, figure {
-  margin-bottom: 1.3em;
+  margin-bottom: 2.5em;
 }
 
 a {
@@ -110,7 +111,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-header {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   width: 100%;
   z-index: 4;
   position: absolute;
@@ -355,12 +356,12 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 @media screen and (max-width: 768px) {
   .probootstrap-intro {
-    background-position: center center;
+    background-position: left center;
   }
 }
 
 .probootstrap-intro.probootstrap-intro-inner {
-  height: 500px;
+  height: 70vh;
 }
 
 .probootstrap-intro .probootstrap-scroll-down {
@@ -371,14 +372,14 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   transform: translateX(-50%);
   -webkit-transition: .9s all ease-out;
   transition: .9s all ease-out;
-  bottom: 20px;
+  bottom: 10px;
   color: #ffffff;
   opacity: 1;
   visibility: visible;
 }
 
 .probootstrap-intro .probootstrap-scroll-down.probootstrap-sleep {
-  bottom: -50px;
+  bottom: -100px;
   opacity: 0;
   visibility: hidden;
 }
@@ -392,13 +393,15 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   .probootstrap-intro .probootstrap-intro-text {
     height: inherit !important;
     margin-top: 100px;
-    padding-left: 15px;
+    font-size: 80vw;
+    padding-left: 100px;
     padding-right: 15px;
-  }
+    position: center;
+  } 
 }
 
 .probootstrap-intro.probootstrap-intro-inner .probootstrap-intro-text {
-  margin-top: 190px;
+  margin-top: 15s%;
 }
 
 @media screen and (max-width: 768px) {
@@ -459,8 +462,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 @media screen and (max-width: 768px) {
   .probootstrap-intro h1 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 10vw;
+    line-height: 8vh;
   }
 }
 
@@ -824,7 +827,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 @media screen and (max-width: 768px) {
   .probootstrap-owl-navigation.absolute {
-    position: relative;
+    position: fixed;
     margin-bottom: 40px;
   }
 }
@@ -860,6 +863,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   margin-bottom: 0;
 }
 
+
 .probootstrap-half {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -893,7 +897,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-half .image .image-bg img {
-  min-width: 100%;
+  min-width: 10%;
   min-height: 100%;
 }
 
@@ -1982,6 +1986,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .owl-carousel .owl-controls,
@@ -2368,11 +2373,5 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   .img-xs-responsive {
     max-width: 100%;
   }
-}
 
-@media screen and (max-width: 480px) {
-  .col-xxs-12 {
-    float: none;
-    width: 100%;
-  }
 }

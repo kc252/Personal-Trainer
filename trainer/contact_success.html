@@ -15,12 +15,16 @@
     <link rel="icon" href="img/dumbells.png">
     <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
 
@@ -36,10 +40,10 @@
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</li>
+            <li><a href="services.html">Services</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li class="active"><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
           <ul class="probootstrap-header-social hidden-xs">
             <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -61,11 +65,11 @@
   <!-- END: header -->
   
   <!-- START: section -->
- <section class="probootstrap-intro probootstrap-intro-inner" style="background-image: url(img/title_small.jpg);" data-stellar-background-ratio="0.5">
+  <section class="probootstrap-intro probootstrap-intro-inner" style="background-image: url(img/title_small.jpg);" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
         <div class="col-md-7 probootstrap-intro-text">
-          <h1 class="probootstrap-animate" data-animate-effect="fadeIn">About me.</h1>
+          <h1 class="probootstrap-animate" data-animate-effect="fadeIn">Contact.</h1>
           <div class="probootstrap-subtitle probootstrap-animate" data-animate-effect="fadeIn">
           </div>
         </div>
@@ -77,24 +81,55 @@
   <main>
     <section id="next-section" class="probootstrap-section">
       <div class="container">
-        <div class="row probootstrap-gutter60 mb50">
-          <div class="col-md-6">
-            <figure><img src="img/about_me.jpg" lt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-            <a href="https://www.instagram.com/synnottstrength_conditioning/" class="btn btn-primary">Instagram <i class="icon-instagram2"></i></a>
-            <a href="https://www.linkedin.com/in/mark-synnott-a680a5b1/" class="btn btn-primary">LinkedIn <i class="fa fa-linkedin-square"></i></a>
+        <div class="col-md-6">
+            <form action="form-to-email.php" method="post" class="probootstrap-form" name="myemailform">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" class="form-control" id="fname" name="fname">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" id="lname" name="lname">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+              </div>
+            </form>
+            <p>Success!</p>
           </div>
-          <div class="col-md-6">
-            <h2 class="probootstrap-heading">Hello My Name is Mark Synnott</h2>
-            <p>Mark is a strength and conditioning coach working out of Gravity Fitness (@gravityfitdub) and Results Fitness (@resultsfitness) in Dublin. Having graduated from DCU with a Bachelor of Science in Sports Science and Health, Mark moved to America (Austin,TX) to gain valuable experince in the fitness industry.</p>
+          <div class="col-md-5 col-md-push-1">
+            <h3 class="mt0">Get In Touch</h3>
+            <ul class="probootstrap-contact-info">
+              <li><i class="icon-mail"></i><span><domain class="c"></domain>marksynnottss@gmail.com</span></li>
+              <li><i class="icon-phone2"></i><span>+353 456 7890<span></li>
+            </ul>
 
-            <p>He spent a year working in Golds Gym, acquring the American College of Sports Medicines; Certified Personal Trainer along the way. Having returned to Ireland in December 2016 Mark has been working hard to improve even further and now wants to branch out into the online fitness industry.</p>
-
-            <p>Mark has an extensive sporting background having played a wide range of sports from a young age and still plays rugby to this day. Giving him an advantage in having insight into the needs and wants of a sports player as well as the general fitness enthusiast. </p>
-
+            <h3>Feedback</h3>
+            <p>If you have any feedback about this website, please contact Kevin Campbell at kcampbe@tcd.ie.</p>
           </div>
-        </div>
+      </div>
+    </section>
+    
   </main>
-<footer class="probootstrap-footer">
+ <footer class="probootstrap-footer">
       <div class="probootstrap-backtotop"><a href="#" class="js-backtotop"><i class="icon-chevron-thin-up"></i></a></div>
       <div class="container">
       <div class="row mb50">
@@ -136,7 +171,7 @@
       </div>
        <div class="row">
          <div class="col-md-12 text-center border-top">
-           <p class="mb0">&copy; Copyright 2018 <a href="https://www.linkedin.com/in/kevin-campbell-493b81113/">Kevin Campbell</a>. All Rights Reserved. <br> Designed by Kevin Campbell: <a href="mailto:kcampbe@tcd.ie">kcampbe@tcd.ie</a><br> Images and Logos by Mark Synnott</p>
+           <p class="mb0">&copy; Copyright 2018 <a href="https://kevincampbell.ie/">Kevin Campbell</a>. All Rights Reserved. <br> Designed by Kevin Campbell: <a href="mailto:kcampbe@tcd.ie">kcampbe@tcd.ie</a><br> Images and Logos by Mark Synnott</p>
          </div>
        </div>
      </div>
